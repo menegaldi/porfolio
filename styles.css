@@ -157,10 +157,53 @@ h5 {
   border: none;
 }
 
-/* .imgs-sec-five {
-  display: table;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-column-end: 2;
-  grid-row-end: 2;
-} */
+.title-sec-five {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.imgs-sec-five {
+  overflow-x: scroll;
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.imgs-sec-five::-webkit-scrollbar {
+  display: none;
+}
+
+.imgs-sec-five img {
+  height: 200px;
+  width: auto;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.imgs-sec-five {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.sec-six-content {
+  text-align: center;
+  background-color: royalblue;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.title-sec-six{
+  padding-bottom: 40px;
+}
+
+
+.group-list {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.group-list ul {
+  padding-left: 0;
+}
