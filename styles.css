@@ -15,12 +15,14 @@ h5 {
   font-size: 20px;
 }
 
+/*starts section one*/
 .section-one{
   color: white;
   background: url(sofa.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .sec-one-content {
   max-width: 1440px;
   justify-content: center;
@@ -70,7 +72,9 @@ h5 {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+/* final section one*/
 
+/*starts section two*/
 .section-two-content {
   display: flex;
   align-items: center;
@@ -106,7 +110,9 @@ h5 {
 .section-three {
   background-color: royalblue;
 }
+/* final section two*/
 
+/*starts section three*/
 .sec-three-content {
   max-width: 1440px;
   color: white;
@@ -129,6 +135,10 @@ h5 {
   font-style: italic;
 }
 
+/* final section three*/
+
+/* starts section four */
+
 .section-four {
   display: flex;
   justify-content: center;
@@ -144,11 +154,18 @@ h5 {
   padding-bottom: 40px;
 }
 
+.wrapper-sec-four {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
 .showing {
   max-width: 1440px;
   display: grid;
   grid-template-columns: repeat(3, 1.2fr);
   grid-column-gap: 32px;
+  margin-bottom: 40px;
 }
 
 .card {
@@ -156,6 +173,10 @@ h5 {
   padding-bottom: 16px;
   border: none;
 }
+
+/* final section four */
+
+/* Section five */
 
 .title-sec-five {
   text-align: center;
@@ -165,7 +186,7 @@ h5 {
 .imgs-sec-five {
   overflow-x: scroll;
   display: flex;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 
 .imgs-sec-five::-webkit-scrollbar {
@@ -183,6 +204,11 @@ h5 {
   scrollbar-width: none;  /* Firefox */
 }
 
+/* final section five */
+
+
+/* Section six */
+
 .sec-six-content {
   text-align: center;
   background-color: royalblue;
@@ -196,7 +222,6 @@ h5 {
   padding-bottom: 40px;
 }
 
-
 .group-list {
   max-width: 1000px;
   display: flex;
@@ -207,3 +232,4 @@ h5 {
 .group-list ul {
   padding-left: 0;
 }
+/* final section six*/
