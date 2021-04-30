@@ -94,6 +94,15 @@ h5 {
   grid-row-gap: 32px; */
 }
 
+.img-card {
+  height: 390px;
+  background-size: auto 390px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+
+
 .card {
   padding: 16px;
   border: none;
