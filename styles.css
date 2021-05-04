@@ -193,7 +193,10 @@ h6 {
 .imgs-sec-five {
   overflow-x: scroll;
   display: flex;
-  /* margin-bottom: 200px; */
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  position: relative;
 }
 
 .imgs-sec-five::-webkit-scrollbar {
@@ -205,12 +208,34 @@ h6 {
   width: auto;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.imgs-sec-five {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+.btn-scroll {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(163, 153, 153, 0.1);
+  top: 0;
+  height: 100%;
+  width: 50px;
+  cursor: pointer;
 }
 
+.btn-scroll:hover {
+  background: rgb(163, 153, 153, 0.3);
+}
+
+.btn-scroll .bi {
+  font-size: 40px;
+  color: white;
+}
+
+.btn-scroll-left {
+  left: 0;
+}
+
+.btn-scroll-right {
+  right: 0;
+}
 /* final section five */
 
 
