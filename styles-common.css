@@ -37,10 +37,20 @@ h5 {
 .sub-header .links-header {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 300;
+
 }
 
 .sub-header .btn-header {
   color: white;
+  text-decoration: none;
+}
+
+.sub-header .btn-header>:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 
 .sub-header .btn-header:not(:last-child) {

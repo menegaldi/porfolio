@@ -15,6 +15,10 @@ h5 {
   font-size: 20px;
 }
 
+h6 {
+  font-size: 14px;
+}
+
 /*starts section one*/
 .section-one{
   color: white;
@@ -41,10 +45,13 @@ h5 {
 .links-header {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .btn-header {
   color: white;
+  text-decoration: none;
+  
 }
 
 .btn-header:not(:last-child) {
