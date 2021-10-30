@@ -1,0 +1,14 @@
+.about-me-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.about-me-banner .title {
+  margin-bottom: 80px;
+}
+
+.about-me-profile img {
+  width: 100%;
+}
