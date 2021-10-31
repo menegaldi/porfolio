@@ -19,6 +19,7 @@
 }
 
 /* Core Values */
+
 .cards-section {
   padding: 80px 0;
 }
@@ -41,7 +42,51 @@
   margin: 0 auto;
 }
 
+.learning-journey_header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.learning-journey_item {
+  display: flex;
+  justify-content: center;
+}
+
+.learning-journey_school {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.learning-journey_divider {
+  padding: 0 20px;
+}
+
+.learning-journey_mark {
+  background-color: #C4C4C4;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.learning-journey_line {
+  width: 2px;
+  background-color: #C4C4C4;
+  height: calc(100% - 24px);
+  margin: 0 auto;
+}
+
+.learning-journey_skills {
+  flex-grow: 1;
+  padding-bottom: 50px;
+}
+
+.learning-journey_skills ul {
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+
 /* Medias */
+
 @media screen and (min-width: 992px) {
   .about-me_profile {
     min-height: 700px;
