@@ -53,7 +53,7 @@
 }
 
 .learning-journey_school {
-  flex-grow: 1;
+  flex: 1 1 0;
   text-align: right;
 }
 
@@ -61,14 +61,14 @@
   padding: 0 20px;
 }
 
-.learning-journey_mark {
+.learning-journey_divider .mark {
   background-color: #C4C4C4;
   width: 24px;
   height: 24px;
   border-radius: 50%;
 }
 
-.learning-journey_line {
+.learning-journey_divider .line {
   width: 2px;
   background-color: #C4C4C4;
   height: calc(100% - 24px);
@@ -76,13 +76,14 @@
 }
 
 .learning-journey_skills {
-  flex-grow: 1;
+  flex: 1 1 0;
+  margin-bottom: 0;
+  padding-left: 0;
   padding-bottom: 50px;
 }
 
-.learning-journey_skills ul {
-  padding-left: 0;
-  margin-bottom: 5px;
+.learning-journey_skills li {
+  padding-bottom: 5px;
 }
 
 /* Medias */
