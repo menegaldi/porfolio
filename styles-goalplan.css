@@ -2,8 +2,6 @@
   width: 100%;
 }
 
-.company-introduction {}
-
 .cover-page-img img {
   width: 100%;
   display: flex;
@@ -26,7 +24,7 @@
 /* First section */
 
 .first-section {
-  height: 100vh;
+  height: calc(100vh - 56px);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -63,6 +61,16 @@
   width: 350px;
   transform: translateY(40px);
 }
+
+/* Company Introduction */
+
+.company-introduction {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #E8E3DB;
+}
+
+/* Medias */
 
 @media screen and (max-width: 992px) {
   .first-section {
