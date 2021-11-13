@@ -72,4 +72,16 @@ body {
   margin-right: 32px;
 }
 
-/* final */
+/* Medias */
+
+@media screen and (max-width: 992px) {
+  .links-header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+}
