@@ -2,9 +2,7 @@
   width: 100%;
 }
 
-.company-introduction {
-
-}
+.company-introduction {}
 
 .cover-page-img img {
   width: 100%;
@@ -13,7 +11,7 @@
 }
 
 .img-wrapper {
-  display:flex;
+  display: flex;
 }
 
 .img-wrapper img {
@@ -23,4 +21,53 @@
   background-size: auto 390px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* First section */
+
+.first-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circles {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.circles .circle {
+  border-radius: 50%;
+}
+
+.circles .circle-red {
+  background-color: #FF6F5B;
+  height: 150px;
+  width: 150px;
+}
+
+.circles .circle-yellow {
+  background-color: #F4AF33;
+  height: 250px;
+  width: 250px;
+  transform: translateY(20px);
+}
+
+.circles .circle-blue {
+  background-color: #54BFD7;
+  height: 350px;
+  width: 350px;
+  transform: translateY(40px);
+}
+
+@media screen and (max-width: 992px) {
+  .first-section {
+    padding-left: 0;
+    justify-content: center;
+  }
 }
