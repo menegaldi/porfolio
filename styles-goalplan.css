@@ -30,31 +30,31 @@
   font-size: 96px;
 }
 
-.circles {
+.first-section .circles {
   position: absolute;
   bottom: 0;
   right: 0;
   overflow: hidden;
 }
 
-.circles .circle {
+.first-section .circles .circle {
   border-radius: 50%;
 }
 
-.circles .circle-red {
+.first-section .circles .circle-red {
   background-color: #FF6F5B;
   height: 150px;
   width: 150px;
 }
 
-.circles .circle-yellow {
+.first-section .circles .circle-yellow {
   background-color: #F4AF33;
   height: 250px;
   width: 250px;
   transform: translateY(20px);
 }
 
-.circles .circle-blue {
+.first-section .circles .circle-blue {
   background-color: #54BFD7;
   height: 350px;
   width: 350px;
@@ -103,9 +103,53 @@
   margin-bottom: 20px;
 }
 
-.section-look .title {
+.top-title {
   color: rgba(0, 0, 0, 0, 5);
   margin-left: -20px;
+}
+
+/* The Gab */
+
+.section-the-gab {
+  padding-top: 30px;
+}
+
+.section-the-gab .content {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.section-the-gab .circles {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.section-the-gab .circle-wrapper {
+  flex-grow: 0;
+  text-align: center;
+  padding: 0 5px;
+}
+
+.section-the-gab .circle-wrapper p {
+  font-size: 12px;
+}
+
+.section-the-gab .circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.section-the-gab .logo-wrapper {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.section-the-gab .logo-wrapper img {
+  max-width: 100%;
+  height: 50px;
 }
 
 /* Medias */
@@ -114,7 +158,7 @@
   .first-section {
     justify-content: center;
   }
-  .section-look .title {
+  .top-title {
     margin-left: 0;
   }
   .company-introduction .title {
