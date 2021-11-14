@@ -116,7 +116,7 @@
 
 .section-the-gab .content {
   padding-top: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 
 .section-the-gab .circles {
@@ -150,6 +150,34 @@
 .section-the-gab .logo-wrapper img {
   max-width: 100%;
   height: 50px;
+}
+
+/* Section Colors */
+
+.section-colors {
+  padding-bottom: 50px;
+}
+
+.section-colors .color-stripe .bottom-text p {
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.section-colors .color-stripes {
+  display: flex;
+  height: 240px;
+  max-width: 680px;
+}
+
+.section-colors .color-stripe {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 
 /* Medias */
