@@ -167,7 +167,8 @@
 
 .section-colors .color-stripes {
   display: flex;
-  height: 240px;
+  height: 100%;
+  min-height: 120px;
   max-width: 680px;
 }
 
@@ -182,17 +183,30 @@
 
 /* Shades */
 
+.section-shades {
+  padding-bottom: 50px;
+}
+
 .section-shades .squares {
   display: flex;
 }
 
 .section-shades .square {
   flex-grow: 1;
-  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  flex-basis: 0;
+  padding: 5px;
+}
+
+.section-shades .square-grey {
+  height: 110px;
+}
+
+.section-shades .square-shades {
+  height: 70px;
 }
 
 .section-shades .square p {
