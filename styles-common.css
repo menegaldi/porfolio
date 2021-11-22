@@ -1,5 +1,5 @@
 body {
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 /* header - component */
@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #5C5C5C;
+  background-color: #5c5c5c;
   color: white;
 }
 
@@ -63,13 +63,21 @@ body {
   text-decoration: none;
 }
 
-.sub-header .btn-header>:hover {
+.sub-header .btn-header > :hover {
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
 
 .sub-header .btn-header:not(:last-child) {
   margin-right: 32px;
+}
+
+/* Reset */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Medias */
