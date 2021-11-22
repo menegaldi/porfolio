@@ -214,6 +214,34 @@
   font-size: 12px;
 }
 
+/* Color Usability */
+
+.section-usability {
+  padding-bottom: 50px;
+}
+
+.section-usability .scale {
+  background-color: #E6F3F6;
+  padding: 30px;
+  display: flex;
+}
+
+.section-usability .scale-wires {
+  border: black dashed 1px;
+  height: 10px;
+  border-bottom: none;
+}
+
+.section-usability .scale-part p {
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.section-usability .scale-bg {
+  height: 60px;
+}
+
 /* Medias */
 
 @media only screen and (max-width: 992px) {
