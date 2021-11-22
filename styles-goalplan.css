@@ -1,3 +1,7 @@
+body {
+  font-family: "Azo Sans", sans-serif;
+}
+
 .cover-page img {
   width: 100%;
 }
@@ -42,20 +46,20 @@
 }
 
 .first-section .circles .circle-red {
-  background-color: #FF6F5B;
+  background-color: #ff6f5b;
   height: 150px;
   width: 150px;
 }
 
 .first-section .circles .circle-yellow {
-  background-color: #F4AF33;
+  background-color: #f4af33;
   height: 250px;
   width: 250px;
   transform: translateY(20px);
 }
 
 .first-section .circles .circle-blue {
-  background-color: #54BFD7;
+  background-color: #54bfd7;
   height: 350px;
   width: 350px;
   transform: translateY(40px);
@@ -66,7 +70,7 @@
 .company-introduction {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #E8E3DB;
+  background-color: #e8e3db;
 }
 
 .company-introduction .title {
@@ -86,7 +90,7 @@
 .section-look {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #E8E3DB;
+  background-color: #e8e3db;
 }
 
 .section-look .img-wrapper img {
@@ -221,7 +225,7 @@
 }
 
 .section-usability .scale {
-  background-color: #E6F3F6;
+  background-color: #e6f3f6;
   padding: 30px;
   display: flex;
 }
@@ -242,14 +246,32 @@
   height: 60px;
 }
 
+/* Typeface */
+
+.section-typeface {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #e8e3db;
+}
+
+.section-typeface .typeface-fonts {
+  background-color: rgba(196, 196, 196, 0.5);
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+
+.section-typeface p {
+  margin-bottom: 3px;
+}
+
 /* Medias */
 
 @media only screen and (max-width: 992px) {
   .first-section {
     justify-content: center;
-  }
-  .top-title {
-    margin-left: 0;
   }
   .company-introduction .title {
     margin-bottom: 10px;
@@ -269,6 +291,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .top-title {
+    margin-left: 0;
+  }
   .first-section .title {
     font-size: 100px;
   }
