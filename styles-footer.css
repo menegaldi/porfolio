@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: #5c5c5c;
+  color: white;
+}
+
+.footer-icon {
+  flex-grow: 0;
+  font-size: 50px;
+}
+
+.footer-content {
+  flex-grow: 1;
+  color: #f2f2f2;
+}

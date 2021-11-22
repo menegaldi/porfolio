@@ -44,7 +44,7 @@
 
 .learning-journey {
   padding-top: 80px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .learning-journey_header {
@@ -67,7 +67,7 @@
 }
 
 .learning-journey_divider .mark {
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -75,7 +75,7 @@
 
 .learning-journey_divider .line {
   width: 2px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   height: calc(100% - 24px);
   margin: 0 auto;
 }
@@ -88,24 +88,6 @@
 
 .learning-journey_skills li {
   padding-bottom: 5px;
-}
-
-footer {
-  display: flex;
-  align-items: flex-start;
-  padding: 40px;
-  background-color: #5C5C5C;
-  color: white;
-}
-
-.footer-icon {
-  flex-grow: 0;
-  font-size: 50px;
-}
-
-.footer-content {
-  flex-grow: 1;
-  color: #F2F2F2
 }
 
 /* Medias */
