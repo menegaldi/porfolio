@@ -267,6 +267,21 @@ body {
   margin-bottom: 3px;
 }
 
+/* Section Logo */
+
+.section-logo {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.section-logo .big-logo {
+  text-align: center;
+}
+
+.section-logo .big-logo img {
+  max-height: 200px;
+}
+
 /* Medias */
 
 @media only screen and (max-width: 992px) {
