@@ -12,7 +12,7 @@
 }
 
 .about-me_profile-image {
-  background-image: url("./assets/about-me_profile.jpeg");
+  background-image: url("../assets/about-me_profile.jpeg");
   background-size: cover;
   background-position: center;
   flex-grow: 1;
