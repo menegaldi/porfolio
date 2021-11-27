@@ -311,6 +311,61 @@ body {
   max-width: 100%;
 }
 
+/* Section pattern */
+
+.section-pattern {
+  background-color: #e8e3db;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.section-pattern img {
+  max-width: 100%;
+}
+
+.section-pattern .shapes {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.section-pattern .shape {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.section-pattern .shape img {
+  max-width: 100px;
+}
+
+.section-pattern .divider {
+  background-color: black;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.section-pattern .snakes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-pattern .snake {
+  flex-grow: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-pattern .snake img {
+  max-width: 100px;
+}
+
+.section-pattern .snake img:nth-child(1) {
+  position: absolute;
+  transform: translateX(-7px);
+}
+
 /* Medias */
 
 @media only screen and (max-width: 992px) {
