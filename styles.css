@@ -33,7 +33,7 @@ h6 {
 
 .section-one {
   color: white;
-  background: url(sofa.png);
+  background: url(./assets/sofa.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
