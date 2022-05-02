@@ -142,11 +142,6 @@ h6 {
 /* starts section four */
 
 .section-four {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 80px;
   margin-top: 80px;
 }
@@ -160,14 +155,6 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.showing {
-  max-width: 1440px;
-  display: grid;
-  grid-template-columns: repeat(3, 1.2fr);
-  grid-column-gap: 32px;
-  margin-bottom: 40px;
 }
 
 .card {
