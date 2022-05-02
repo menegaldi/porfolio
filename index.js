@@ -1,6 +1,6 @@
-function scrollRight() {
+function scrollCarousel(n) {
   const carousel = document.getElementById("carousel");
-  carousel.scrollLeft = carousel.scrollLeft + 100;
+  carousel.scrollLeft = carousel.scrollLeft + n;
 }
 
 function goTo(url) {

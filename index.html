@@ -47,7 +47,7 @@
           </a>
         </div>
       </div>
-      <div class="grettings">
+      <div class="greetings">
         <div>
           <h1 style="margin-bottom: 16px;">
             Hey, you!
@@ -69,30 +69,34 @@
   </section>
 
   <section class="section-two">
-    <div class="sec-two-content">
+    <div class="container">
       <div class="sec-title">
-        <h2>
-          Highlighed Project
-        </h2>
+        <h2>Highlighed Project</h2>
       </div>
-      <div class="highlighted">
-        <div class="highlighted-img">
-          <img src="./assets/goalplan/squared-logo.png" alt="">
+
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="highlighted-img">
+            <img src="./assets/goalplan/squared-logo.png" alt="">
+          </div>
         </div>
-        <div class="highlighted-content">
-          <div>
-            <h3>
-              GoalPlan's Project
-            </h3>
-            <p>
-              This project consists in the development of brand concept from start to finish.<br>
-              The client goal at the time was upgrade from a start-up to a scale-up company.<br>
-              Therefore, they were seeking a new visual identity.
-              It was developed as part of my graduation program at Hyper Island.
-            </p>
-            <button type="button" class="btn btn-dark btn-lg" onclick="goTo('goalplan.html')">
-              Read More
-            </button>
+
+        <div class="col-12 col-md-6">
+          <div class="highlighted-content">
+            <div>
+              <h3>
+                GoalPlan's Project
+              </h3>
+              <p>
+                This project consists in the development of brand concept from start to finish.<br>
+                The client goal at the time was upgrade from a start-up to a scale-up company.<br>
+                Therefore, they were seeking a new visual identity.
+                It was developed as part of my graduation program at Hyper Island.
+              </p>
+              <button type="button" class="btn btn-dark btn-lg" onclick="goTo('goalplan.html')">
+                Read More
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -158,69 +162,76 @@
           Playground
         </h2>
       </div>
-      <div class="imgs-sec-five" id="carousel">
-        <a class="btn-scroll btn-scroll-left">
+      <div style="position: relative;">
+        <a class="btn-scroll btn-scroll-left" onclick="scrollCarousel(-200)">
           <i class="bi bi-arrow-left-circle-fill"></i>
         </a>
-        <a class="btn-scroll btn-scroll-right" onclick="scrollRight()">
+        <a class="btn-scroll btn-scroll-right" onclick="scrollCarousel(200)">
           <i class="bi bi-arrow-right-circle-fill"></i>
         </a>
-        <img src="./assets/plaground-img/3d-website.png">
-        <img src="./assets/plaground-img/castor.gif">
-        <img src="./assets/plaground-img/Igloo.png">
-        <img src="./assets/plaground-img/final-art-castle.png">
-        <img src="./assets/sofa.png">
-        <img src="./assets/plaground-img/astronaut.png">
+
+        <div class="imgs-sec-five" id="carousel">
+          <img src="./assets/plaground-img/3d-website.png">
+          <img src="./assets/plaground-img/castor.gif">
+          <img src="./assets/plaground-img/Igloo.png">
+          <img src="./assets/plaground-img/final-art-castle.png">
+          <img src="./assets/sofa.png">
+          <img src="./assets/plaground-img/astronaut.png">
+        </div>
       </div>
   </section>
 
   <section class="section-six">
     <div class="sec-six-content">
-      <div>
-        <h2 class="title-sec-six">
-          Top skills
-        </h2>
-      </div>
+      <h2 class="title-sec-six">Top skills</h2>
+
       <div class="group-list">
-        <div class="list-sec-six">
-          <h4>Graphic Design</h4>
-          <ul>
-            <li>Visual Identity</li>
-            <li>Brand Strategy</li>
-            <li>Logo Design</li>
-            <li>Design System</li>
-            <li>Layout Design</li>
-          </ul>
-        </div>
-        <div class="list-sec-six">
-          <h4>Product Design</h4>
-          <ul>
-            <li>User Interface</li>
-            <li>User Interaction</li>
-            <li>User Experience</li>
-            <li>User Research and Analysis</li>
-            <li>Web and App Design</li>
-          </ul>
-        </div>
-        <div class="list-sec-six">
-          <h4>Art & Concept</h4>
-          <ul>
-            <li>Hand Drawing</li>
-            <li>Digital Drawing & Painting</li>
-            <li>3D Modelling & Sculpting</li>
-            <li>Concept Development</li>
-            <li>Concept Art</li>
-          </ul>
-        </div>
-        <div class="list-sec-six">
-          <h4>Miscellaneous</h4>
-          <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>Project Management & Strategy</li>
-            <li>Workshop Facilitation</li>
-            <li>Remote Work & Meetings</li>
-          </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <h4>Graphic Design</h4>
+              <ul>
+                <li>Visual Identity</li>
+                <li>Brand Strategy</li>
+                <li>Logo Design</li>
+                <li>Design System</li>
+                <li>Layout Design</li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-3">
+              <h4>Product Design</h4>
+              <ul>
+                <li>User Interface</li>
+                <li>User Interaction</li>
+                <li>User Experience</li>
+                <li>User Research and Analysis</li>
+                <li>Web and App Design</li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-3 mt-4 mt-md-0">
+              <h4>Art & Concept</h4>
+              <ul>
+                <li>Hand Drawing</li>
+                <li>Digital Drawing & Painting</li>
+                <li>3D Modelling & Sculpting</li>
+                <li>Concept Development</li>
+                <li>Concept Art</li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-3 mt-4 mt-md-0">
+              <h4>Miscellaneous</h4>
+              <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Project Management & Strategy</li>
+                <li>Workshop Facilitation</li>
+                <li>Remote Work & Meetings</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

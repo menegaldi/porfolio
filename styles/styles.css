@@ -45,7 +45,7 @@ h6 {
   margin-right: auto;
 }
 
-.grettings {
+.greetings {
   height: 87vh;
   padding-left: 50%;
   display: flex;
@@ -86,11 +86,6 @@ h6 {
   grid-template-columns: repeat(2, 1.2fr);
   grid-column-gap: 32px;
   grid-row-gap: 32px;
-}
-
-.highlighted-img {
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .highlighted-img > img {
@@ -215,6 +210,7 @@ h6 {
   height: 100%;
   width: 50px;
   cursor: pointer;
+  z-index: 99;
 }
 
 .btn-scroll:hover {
@@ -250,15 +246,23 @@ h6 {
   padding-bottom: 40px;
 }
 
-.group-list {
-  max-width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
 .group-list ul {
   padding-left: 0;
 }
 
 /* final section six*/
+
+/* Responsiveness */
+@media screen and (max-width: 992px) {
+  .greetings {
+    padding: 0;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+    margin: 0 10px;
+  }
+}
