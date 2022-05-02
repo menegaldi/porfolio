@@ -46,6 +46,7 @@
   max-width: 1440px;
   background-color: lightblue;
   padding: 32px;
+  margin-top: 40px;
 }
 .wrapper-content {
   display: flex;
@@ -67,4 +68,30 @@
 .content-link a {
   color: black;
   align-items: flex-end;
+}
+
+.contact-left {
+  margin-left: -40px;
+}
+
+.contact-right {
+  margin-right: -40px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .contact-left {
+    margin-left: 0;
+  }
+
+  .contact-right {
+    margin-right: 0;
+  }
+
+  .highlighted-content {
+    margin-top: 0;
+  }
 }
