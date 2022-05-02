@@ -19,6 +19,14 @@ body {
   align-items: center;
 }
 
+.links-home {
+  color: white;
+}
+
+.links-home:hover {
+  color: white;
+}
+
 .links-header p {
   margin: 0;
 }
