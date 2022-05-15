@@ -159,6 +159,7 @@ body {
 /* Section Colors */
 
 .section-colors {
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
@@ -314,7 +315,6 @@ body {
 /* Section pattern */
 
 .section-pattern {
-  background-color: #e8e3db;
   padding-top: 50px;
   padding-bottom: 60px;
 }
@@ -366,24 +366,93 @@ body {
   transform: translateX(-7px);
 }
 
+.section-research_insight .content {
+  padding: 50px 0 100px 0;
+}
+
+.section-brand_workshop .content {
+  padding: 50px 0 100px 0;
+}
+
+.section-strategy .content {
+  padding: 50px 0 100px 0;
+}
+
+.section-strategy {
+  background-color: #e8e3db;
+}
+
+.section-strategy .circles {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.section-strategy .circle {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.section-strategy .circle p {
+  margin: 0;
+  font-size: small;
+  padding-top: 5px;
+}
+
+.center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.section-how_to_use .img-label {
+  position: absolute;
+  display: flex;
+}
+
+.section-how_to_use .img-label p {
+  flex-grow: 1;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: small;
+}
+
+.section-how_to_use .img-label div {
+  flex-grow: 1;
+}
+
+.section-how_to_use .img-label img {
+  width: 80px;
+}
+
 /* Medias */
 
 @media only screen and (max-width: 992px) {
   .first-section {
     justify-content: center;
   }
+
   .company-introduction .title {
     margin-bottom: 10px;
   }
+
   .section-brief {
     padding-bottom: 50px;
   }
+
   .first-section .title-wrapper {
     margin-bottom: 100px;
   }
+
   .first-section .title {
     font-size: 150px;
   }
+
   .first-section .sub-title {
     font-size: 72px;
   }
@@ -393,9 +462,11 @@ body {
   .top-title {
     margin-left: 0;
   }
+
   .first-section .title {
     font-size: 100px;
   }
+
   .first-section .sub-title {
     font-size: 48px;
   }
@@ -405,6 +476,7 @@ body {
   .first-section .title {
     font-size: 64px;
   }
+
   .first-section .sub-title {
     font-size: 32px;
   }
