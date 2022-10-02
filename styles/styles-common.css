@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #5c5c5c;
+  background-color: royalblue;
   color: white;
 }
 
@@ -19,6 +19,14 @@ body {
   align-items: center;
 }
 
+.links-home {
+  color: white;
+}
+
+.links-home:hover {
+  color: white;
+}
+
 .links-header p {
   margin: 0;
 }
@@ -26,6 +34,11 @@ body {
 .btn-header {
   color: white;
   text-decoration: none;
+}
+
+.btn-header:hover {
+  color: inherit;
+  font-weight: bolder;
 }
 
 .btn-header:not(:last-child) {
@@ -85,11 +98,5 @@ ul {
 @media screen and (max-width: 992px) {
   .links-header {
     display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    padding: 10px;
   }
 }

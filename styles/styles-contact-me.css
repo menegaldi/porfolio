@@ -3,6 +3,7 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 100px;
 }
 
 .section-two-content {
@@ -29,7 +30,7 @@
 }
 
 .highlighted-img {
-  background-image: url(./plaground-img/Igloo.png);
+  background-image: url(../assets/plaground-img/Igloo.png);
   width: 100%;
   height: 390px;
   background-size: auto 390px;
@@ -45,7 +46,7 @@
   max-width: 1440px;
   background-color: lightblue;
   padding: 32px;
-  
+  margin-top: 40px;
 }
 .wrapper-content {
   display: flex;
@@ -69,4 +70,28 @@
   align-items: flex-end;
 }
 
+.contact-left {
+  margin-left: -40px;
+}
 
+.contact-right {
+  margin-right: -40px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .contact-left {
+    margin-left: 0;
+  }
+
+  .contact-right {
+    margin-right: 0;
+  }
+
+  .highlighted-content {
+    margin-top: 0;
+  }
+}

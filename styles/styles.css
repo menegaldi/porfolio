@@ -1,5 +1,5 @@
 body {
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   /*font-style: normal; */
 }
 
@@ -45,7 +45,7 @@ h6 {
   margin-right: auto;
 }
 
-.grettings {
+.greetings {
   height: 87vh;
   padding-left: 50%;
   display: flex;
@@ -88,7 +88,12 @@ h6 {
   grid-row-gap: 32px;
 }
 
-.highlighted-img>img {
+.highlighted-img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.highlighted-img > img {
   flex-grow: 1;
   width: 100%;
 }
@@ -137,11 +142,6 @@ h6 {
 /* starts section four */
 
 .section-four {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 80px;
   margin-top: 80px;
 }
@@ -155,14 +155,6 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.showing {
-  max-width: 1440px;
-  display: grid;
-  grid-template-columns: repeat(3, 1.2fr);
-  grid-column-gap: 32px;
-  margin-bottom: 40px;
 }
 
 .card {
@@ -210,6 +202,7 @@ h6 {
   height: 100%;
   width: 50px;
   cursor: pointer;
+  z-index: 99;
 }
 
 .btn-scroll:hover {
@@ -245,15 +238,23 @@ h6 {
   padding-bottom: 40px;
 }
 
-.group-list {
-  max-width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
 .group-list ul {
   padding-left: 0;
 }
 
 /* final section six*/
+
+/* Responsiveness */
+@media screen and (max-width: 992px) {
+  .greetings {
+    padding: 0;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 10px;
+    margin: 0 10px;
+  }
+}
